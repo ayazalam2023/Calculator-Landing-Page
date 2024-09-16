@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    align-content: center;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+
+    background:black;
+    padding: 30px;
+    border-radius: 70px;
+}
+.calculator form input{
+    color: black;
+    border:0;
+    outline:0;
+    width:90px;
+    height:70px;
+    border-radius:20px;
+    box-shadow: -10px -10px 20px rgba(255,255,255,0.1),3px 3px 20px rgba(255,255,255,0.1);
+    background: transparent;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 8px;
+}
+form.display{
+    background: white;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+form.display input{
+    margin: 100PX;
+    text-align: center;
+    width: 200%;
+    flex:10px;
+    font-size: 65px ;
+    box-shadow: gray;
+}
+form input.equal{
+    width: 185px;
+    color: aqua;
+}
+.button{
+    background-color: aqua;
+}
+.head{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Landing Page Styles */
+.landing-page {
+    text-align: center;
+}
+
+/* Animation for the welcome text */
+.animated-text {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    animation: fade-in 2s ease-out;
+}
+
+/* Keyframes for the text animation */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button styling */
+.btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2ecc71;
+}
